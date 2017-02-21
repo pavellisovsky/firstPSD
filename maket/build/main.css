@@ -1,0 +1,69 @@
+.welcome {
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #d9e1e6;
+}
+.welcome .close {
+  float: right;
+}
+.welcome .close:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.welcome h1 {
+  text-align: center;
+  font-size: 10px;
+  color: #868f93;
+  text-transform: uppercase;
+  margin: 0;
+}
+header {
+  width: 100%;
+  border-bottom: 1px solid #e1e1e1;
+}
+header .btn {
+  margin-top: 37px;
+  margin-bottom: 37px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  font-size: 12px;
+}
+header .col-md-4 .dropdown-menu {
+  font-size: 12px;
+}
+header .col-md-4 .logo {
+  display: block;
+  margin: 0 auto;
+  margin-top: 37px;
+  margin-bottom: 37px;
+}
+header .cartbutton {
+  width: 128px;
+  height: 44px;
+  float: right;
+  margin-top: 27px;
+  margin-bottom: 27px;
+  background-color: #ffffff;
+  border: 2px solid #ded3aa;
+  font-family: Arial;
+  font-size: 12px;
+}
+header .cartbutton a {
+  text-decoration: none;
+  color: #111111;
+}
+header .cartbutton:before {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+header .cartbutton:hover {
+  background-color: #f2efe6;
+}
